@@ -17,17 +17,16 @@
 		5 --> STANDING
 		6 --> LAYING
 
-	The ordering of the activity type in the final data set is done according to the original labeling and not alphabetically.
+	The ordering of the activity type in the final data set is done according to the original
+	labeling and not alphabetically.
 
 All the variables below are numeric and represent the average of the measurements per each subject and each activity.
 Due to the normalization in the initial data set, the units for the variables are not available.
 
 From a total of 561 initial features, the list below contains only the mean and standard deviation measurements, with a total of 66 variables. The variable filtering has been done using the grep() function.
 Several changes have been made to variable names:
-	- replacements: 
-		"-" --> "_"
-		"()" --> ""
-	- dublicate "BodyBody" has been removed
+* replacements: "-" --> "_"; "()" --> ""
+* dublicate "BodyBody" has been removed
 
 <b>tBodyAcc_mean_X</b>
 
